@@ -1,2 +1,2 @@
 # CompositionToolkit
-C++/WinRT port of Microsoft.UI.Composition.Toolkit
+This is a C++/WinRT port of the Microsoft.UI.Composition.Toolkit component [found here](https://github.com/Microsoft/WindowsUIDevLabs/tree/master/Demos/Reference%20Demos/Microsoft.UI.Composition.Toolkit). No attempt has been made to clean up the code other than to replace proprietary C++/CX code with standard C++ thanks to C++/WinRT. This has also been only lightly tested and undoubtedly has bugs.
