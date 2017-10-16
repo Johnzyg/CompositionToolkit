@@ -1,9 +1,5 @@
 ﻿#pragma once
 
-#pragma comment(lib, "windowsapp")
-
-#pragma warning(disable:4100)
-
 #include "winrt/Windows.Foundation.h"
 #include "winrt/Windows.Graphics.DirectX.h"
 #include "winrt/Windows.Storage.Streams.h"

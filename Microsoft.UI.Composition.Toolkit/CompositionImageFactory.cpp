@@ -49,7 +49,7 @@ namespace winrt::Microsoft::UI::Composition::Toolkit::implementation
     {
         auto image = make<CompositionImage>();
 
-        from_abi<CompositionImage, Toolkit::ICompositionImage>(image)->Initialize(m_compositor, m_device, pixels, pixelWidth, pixelWidth);
+        from_abi<CompositionImage, Toolkit::ICompositionImage>(image)->Initialize(m_compositor, m_device, pixels, pixelWidth, pixelHeight);
 
         return image;
     }

@@ -1,9 +1,4 @@
-﻿//
-// pch.h
-// Header for standard system include files.
-//
-
-#pragma once
+﻿#pragma once
 
 #include "winrt/Windows.ApplicationModel.Core.h"
 #include "winrt/Windows.UI.Core.h"
