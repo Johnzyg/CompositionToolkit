@@ -1,4 +1,6 @@
 ﻿.vs
 Debug
 obj
-cppwinrt.exe
+*.exe
+*.dll
+*.winmd
