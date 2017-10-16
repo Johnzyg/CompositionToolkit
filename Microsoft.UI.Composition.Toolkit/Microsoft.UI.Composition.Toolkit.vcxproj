@@ -107,14 +107,14 @@
       <Message>Copy DLL to project folder.</Message>
     </PostBuildEvent>
     <CustomBuildStep>
-      <Command>..\cppwinrt.exe -component -in $(ProjectDir)Microsoft.UI.Composition.Toolkit.winmd -ref local -out $(ProjectDir) -verbose</Command>
+      <Command>rem ..\cppwinrt.exe -component -in $(ProjectDir)Microsoft.UI.Composition.Toolkit.winmd -ref local -out $(ProjectDir) -verbose</Command>
     </CustomBuildStep>
     <CustomBuildStep>
       <Message>C++/WinRT</Message>
     </CustomBuildStep>
     <CustomBuildStep>
       <Inputs>Microsoft.UI.Composition.Toolkit.winmd</Inputs>
-      <Outputs>module.h</Outputs>
+      <Outputs>rem_module.h</Outputs>
     </CustomBuildStep>
     <Link>
       <ModuleDefinitionFile>module.def</ModuleDefinitionFile>
@@ -147,14 +147,14 @@
       <Message>Copy DLL to project folder.</Message>
     </PostBuildEvent>
     <CustomBuildStep>
-      <Command>..\cppwinrt.exe -component -in $(ProjectDir)Microsoft.UI.Composition.Toolkit.winmd -ref local -out $(ProjectDir) -verbose</Command>
+      <Command>rem ..\cppwinrt.exe -component -in $(ProjectDir)Microsoft.UI.Composition.Toolkit.winmd -ref local -out $(ProjectDir) -verbose</Command>
     </CustomBuildStep>
     <CustomBuildStep>
       <Message>C++/WinRT</Message>
     </CustomBuildStep>
     <CustomBuildStep>
       <Inputs>Microsoft.UI.Composition.Toolkit.winmd</Inputs>
-      <Outputs>module.h</Outputs>
+      <Outputs>rem_module.h</Outputs>
     </CustomBuildStep>
     <Link>
       <ModuleDefinitionFile>module.def</ModuleDefinitionFile>
@@ -195,14 +195,14 @@
       <Message>Copy DLL to project folder.</Message>
     </PostBuildEvent>
     <CustomBuildStep>
-      <Command>..\cppwinrt.exe -component -in $(ProjectDir)Microsoft.UI.Composition.Toolkit.winmd -ref local -out $(ProjectDir) -verbose</Command>
+      <Command>rem ..\cppwinrt.exe -component -in $(ProjectDir)Microsoft.UI.Composition.Toolkit.winmd -ref local -out $(ProjectDir) -verbose</Command>
     </CustomBuildStep>
     <CustomBuildStep>
       <Message>C++/WinRT</Message>
     </CustomBuildStep>
     <CustomBuildStep>
       <Inputs>Microsoft.UI.Composition.Toolkit.winmd</Inputs>
-      <Outputs>module.h</Outputs>
+      <Outputs>rem_module.h</Outputs>
     </CustomBuildStep>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -239,14 +239,14 @@
       <Message>Copy DLL to project folder.</Message>
     </PostBuildEvent>
     <CustomBuildStep>
-      <Command>..\cppwinrt.exe -component -in $(ProjectDir)Microsoft.UI.Composition.Toolkit.winmd -ref local -out $(ProjectDir) -verbose</Command>
+      <Command>rem ..\cppwinrt.exe -component -in $(ProjectDir)Microsoft.UI.Composition.Toolkit.winmd -ref local -out $(ProjectDir) -verbose</Command>
     </CustomBuildStep>
     <CustomBuildStep>
       <Message>C++/WinRT</Message>
     </CustomBuildStep>
     <CustomBuildStep>
       <Inputs>Microsoft.UI.Composition.Toolkit.winmd</Inputs>
-      <Outputs>module.h</Outputs>
+      <Outputs>rem_module.h</Outputs>
     </CustomBuildStep>
   </ItemDefinitionGroup>
   <ItemGroup>
